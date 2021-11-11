@@ -310,6 +310,7 @@ section.keempat {
 section.kelima {
   width: auto;
   height: 100%;
+  min-height: 800px;
   /* min-height: 500px; */
   /* background-color: #c85000; */
   position: relative;
@@ -322,7 +323,7 @@ section.kelima::before {
   top: 0;
   height: 800px;
   position: absolute;
-  z-index: -99;
+  /* z-index: -99; */
   /* background-color: #c85000; */
   /* content: url(img/kelima.png) no-repeat; */
   /* z-index: 99; */
@@ -349,6 +350,117 @@ h1.judul-kelima::before {
   /* background-size: 100% 100%; */
 }
 
+/* keenam */
+
+section.keenam {
+  /* background-color: #c85000; */
+  position: relative;
+  /* padding-top: 50%; */
+  width: 100%;
+  height: 100%;
+  min-height: 800px;
+}
+section.keenam::before {
+  background: url(img/6bg-1.png) no-repeat;
+  content: "";
+  width: 100%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  /* z-index: 99; */
+  /* background-color: #c85000; */
+  /* content: url(img/kelima.png) no-repeat; */
+  /* z-index: 99; */
+  background-size: 100% 100%;
+}
+
+.isi-keenam {
+  padding: 3em 0 1em;
+}
+
+.isi-enam {
+  padding: 1% 15% 0%;
+}
+.img-keenam {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 350px;
+}
+.con-enem {
+  padding: 1em 1em;
+  /* margin: 0 10px; */
+}
+
+.dan-enam {
+  background-color: #fff;
+  /* background-color: #e6c8c3; */
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.isi-kenama-content {
+  padding: 5% 5%;
+  color: #484f5b;
+  font-family: "Lato";
+}
+.isi-kenama-content h2 {
+  font-weight: 500;
+}
+.img6 {
+  width: 100%;
+  height: 100%;
+}
+section.ketujuh {
+  height: 100%;
+  min-height: 100vh;
+  background-color: #e6c8c3;
+}
+.row-ketujuh {
+  padding-top: 10rem;
+}
+.content-ketuju {
+  padding: 1em 1em;
+}
+ul {
+  text-decoration: none;
+  list-style-type: none;
+
+  /* vertical-align: sub; */
+}
+.content-ketuju ul {
+  padding: 0;
+  margin: 0;
+}
+
+.isi-ketujuh h1 {
+  color: #484f5b;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  font-family: "Lato";
+}
+.isiccon-ketujuh {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.content-ketuju ul li {
+  background-color: #484f5b;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: #fff;
+  vertical-align: middle;
+  margin-right: 1em;
+}
+.content-ketuju ul li i {
+  font-size: 17px;
+  vertical-align: middle;
+}
+
+.gmbar-ketujugh img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 @media (min-width: 1400px) {
   .container {
     max-width: 1301px;
